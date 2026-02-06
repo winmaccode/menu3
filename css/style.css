@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: "Playwrite NZ Basic", cursive;
+}
+
+.hotel-head{
+    width: 100%;
+    height: 200px;
+    background-image: url("/images/hotelbanner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotel-name{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 45px;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+.hotel-desc{
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.nav-bar{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #7b543d;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid white;
+}
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: antiquewhite;
+    justify-content: center;
+}
+
+.one.active{
+    color: red;
+}
+
+.item-head{
+    color: #7b543d;
+    padding-top: 15px;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+
+.itemimgg{
+    width: 100px;
+    display: block;
+    margin: 0px;
+}
+
+.items{
+    padding-top: 5px;
+    place-items: center;
+    padding-bottom: 5px;
+    background-color: antiquewhite;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.item1{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    margin: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+    border: 0.5px solid #7b543d;
+}
+
+.item-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular{
+    background-color: antiquewhite;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 1000;
+    padding-right: 30px;
+    color: #6b3e26;
+}
+
+.foot{
+    background-color: antiquewhite;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
