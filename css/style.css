@@ -18,7 +18,7 @@ body{
 .hotel-head{
     width: 100%;
     height: 200px;
-    background-image: url("./images/hotelbanner.jpeg");
+    background-image: url("../images/hotelbanner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
